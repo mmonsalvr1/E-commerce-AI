@@ -65,6 +65,8 @@ class ProductDTO(BaseModel):
         return v
 
     class Config:
+        """Configuracion de Pydantic para mapear desde atributos ORM."""
+
         from_attributes = True  # Permite crear desde objetos ORM
 
 
@@ -146,4 +148,6 @@ class ChatHistoryDTO(BaseModel):
     timestamp: datetime
 
     class Config:
+        """Configuracion de Pydantic para mapear desde atributos ORM."""
+
         from_attributes = True

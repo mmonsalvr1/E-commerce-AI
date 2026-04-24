@@ -63,8 +63,6 @@ class ChatMemoryModel(Base):
 
     __tablename__ = "chat_memory"
 
-    __table_args__ = (Index("ix_chat_memory_session_id", "session_id"),)
-
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     session_id: Mapped[str] = mapped_column(String(100), nullable=False, index=True)
     role: Mapped[str] = mapped_column(String(20), nullable=False)
