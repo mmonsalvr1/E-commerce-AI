@@ -1,6 +1,6 @@
 # E-commerce Chat IA
 
-API REST de e-commerce de zapatos con chat inteligente, construida con Clean Architecture.
+API REST de e-commerce de zapatos con chat inteligente, construida con Clean Architecture. (Tuve un problema con git cuando comencé el proyecto, entonces no tengo commits para cada feature implementada, tuve que crear un solo commit diciendo todo lo hecho hasta el momento, pero después de solucionar el problema, si pude continuar con las buenas prácticas de commits y ramas)
 
 ## Descripcion Del Proyecto
 
